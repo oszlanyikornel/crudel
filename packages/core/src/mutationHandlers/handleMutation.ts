@@ -20,7 +20,7 @@ export const handleMutation = async <Data, PostData>(
 	data: Data | undefined,
 	newData: PostData | PostData[] | undefined,
 	url: string | null,
-	revalidate: boolean = false
+	revalidate = false
 ): Promise<MutationReturn> => {
 	try {
 		const mutationData = customMutation

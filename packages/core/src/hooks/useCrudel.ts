@@ -51,7 +51,7 @@ export function useCrudel<Data = any, PostData = any, Error = any>(
 			overrideUrl?: string,
 			overrideAxiosConfig?: AxiosRequestConfig,
 			customMutation?: CustomMutation<Data, PostData>,
-			revalidate: boolean = true
+			revalidate = true
 		): Promise<CreateReturn> => {
 			return await handleCreate<Data, PostData>(
 				fetchUrl,
@@ -74,7 +74,7 @@ export function useCrudel<Data = any, PostData = any, Error = any>(
 			overrideUrl?: string,
 			overrideAxiosConfig?: AxiosRequestConfig,
 			customMutation?: CustomMutation<Data, PostData>,
-			revalidate: boolean = true
+			revalidate = true
 		): Promise<UpdateReturn> => {
 			return await handleUpdate<Data, PostData>(
 				id,
@@ -97,7 +97,7 @@ export function useCrudel<Data = any, PostData = any, Error = any>(
 			overrideUrl?: string,
 			overrideAxiosConfig?: AxiosRequestConfig,
 			customMutation?: CustomMutation<Data, PostData>,
-			revalidate: boolean = true
+			revalidate = true
 		): Promise<RemoveReturn> => {
 			return await handleRemove<Data>(
 				id,

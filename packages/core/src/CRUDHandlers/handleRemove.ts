@@ -26,7 +26,7 @@ const handleRemove = async <Data>(
 	overrideUrl?: string,
 	overrideAxiosConfig?: AxiosRequestConfig,
 	customMutation?: CustomMutation<Data, any>,
-	revalidate: boolean = true
+	revalidate = true
 ): Promise<RemoveReturn> => {
 	const { postUrl, postData, newConfig } = handlePostArgs(
 		url,

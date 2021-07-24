@@ -11,7 +11,9 @@
 		"dev:docs": "yarn workspace @crudel/docs dev",
 		"dev:core": "yarn workspace @crudel/core build:watch",
 		"test:core": "yarn workspace @crudel/core test",
-		"test": "jest"
+		"build": "yarn lerna fd",
+		"test": "jest",
+		"lint": "yarn lerna run lint --npm-client=yarn"
 	},
 	"devDependencies": {
 		"lerna": "^4.0.0"

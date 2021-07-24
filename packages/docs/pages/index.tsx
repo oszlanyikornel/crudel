@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useEffect } from "react";
 import { CustomMutation, useCrudel } from "@crudel/core";
-import { useUser } from "../hooks/useUser";
+//import { useUser } from "../hooks/useUser";
 import axios from "axios";
 
 interface SomeNew {

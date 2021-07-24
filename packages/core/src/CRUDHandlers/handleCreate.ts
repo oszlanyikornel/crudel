@@ -24,7 +24,7 @@ const handleCreate = async <Data, PostData>(
 	overrideUrl?: string,
 	overrideAxiosConfig?: AxiosRequestConfig,
 	customMutation?: CustomMutation<Data, PostData>,
-	revalidate: boolean = true
+	revalidate = true
 ): Promise<CreateReturn> => {
 	const { postUrl, postData, newConfig } = handlePostArgs(
 		url,
