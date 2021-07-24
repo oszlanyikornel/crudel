@@ -10,9 +10,9 @@
 	"scripts": {
 		"dev:docs": "yarn workspace @crudel/docs dev",
 		"dev:core": "yarn workspace @crudel/core build:watch",
-		"test:core": "yarn workspace @crudel/core test",
-		"build": "yarn lerna fd",
+		"build": "yarn lerna run build --npm-client=yarn",
 		"test": "jest",
+		"test:core": "yarn workspace @crudel/core test",
 		"lint": "yarn lerna run lint --npm-client=yarn"
 	},
 	"devDependencies": {
