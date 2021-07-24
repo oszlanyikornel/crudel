@@ -24,6 +24,7 @@ interface CrudelConfig<Data, Error> {
 // TODO useCreate hook return a function to call
 // TODO ceate createOne, ... function outside the hook and import it and call it wich returns a function wich you can call
 // TODO useCallback and memoize on these functions
+// comment
 
 // TODO create heper functions like usePost/useGet (these include custom endpoint, custom data and config, custom fetcher, custom transformer, custom mutater...) for extending the library with custom functions
 // TODO create argument typescript definition like swr to flexible parameter adding
