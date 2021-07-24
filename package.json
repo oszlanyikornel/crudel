@@ -1,0 +1,19 @@
+{
+	"name": "crudel",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"version": "1.0.0",
+	"license": "MIT",
+	"author": "Oszlányi Kornél",
+	"scripts": {
+		"dev:docs": "yarn workspace @crudel/docs dev",
+		"dev:core": "yarn workspace @crudel/core build:watch",
+		"test:core": "yarn workspace @crudel/core test",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"lerna": "^4.0.0"
+	}
+}
