@@ -26,6 +26,17 @@
 		"test": "jest --config=jest.config.js",
 		"lint": "eslint '**/*.ts'"
 	},
+	"keywords": [
+		"CRUD",
+		"swr",
+		"hook",
+		"react",
+		"fetch"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oszlanyikornel/cruder"
+	},
 	"peerDependencies": {
 		"axios": "^0.21.1",
 		"react": "^17.0.2",
