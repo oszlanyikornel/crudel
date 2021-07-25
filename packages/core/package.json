@@ -28,5 +28,16 @@
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
 		"swr": "^0.5.6"
+	},
+	"keywords": [
+		"CRUD",
+		"swr",
+		"hook",
+		"react",
+		"fetch"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oszlanyikornel/cruder"
 	}
 }
