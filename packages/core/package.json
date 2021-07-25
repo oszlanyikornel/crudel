@@ -1,6 +1,6 @@
 {
 	"name": "@crudel/core",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "This is the core of the crudel package",
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
