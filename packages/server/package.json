@@ -1,6 +1,6 @@
 {
 	"name": "@crudel/server",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "This is the server side of the crudel package",
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
