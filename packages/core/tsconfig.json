@@ -10,7 +10,8 @@
 		"jsx": "preserve",
 		"rootDir": ".",
 		"outDir": "./dist",
-		"esModuleInterop": true
+		"esModuleInterop": true,
+		"declaration": true
 	},
 	"include": ["**/*.ts", "**/*.tsx", "*.ts", "*.tsx"],
 	"exclude": ["node_modules"]
