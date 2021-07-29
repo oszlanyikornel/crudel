@@ -62,5 +62,13 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.3.0",
     "typescript": "^4.3.5"
-  }
+  },
+  "keywords": [
+    "CRUD",
+    "swr",
+    "axios",
+    "fetch",
+    "react",
+    "hook"
+  ]
 }
