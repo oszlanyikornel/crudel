@@ -11,6 +11,7 @@ describe('testing the standard fetcher', () => {
     const url = 'https://testget/test';
     const data = { data: 3 };
     axiosMock.onGet(url).reply(200, data);
+    // add
 
     const res = await standardFetcher(url);
     expect(res).toEqual(data);
