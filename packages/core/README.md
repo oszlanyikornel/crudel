@@ -1,22 +1,24 @@
 # Crudel
 
-A react CRUD hook built on top of swr.
+React CRUD hooks built on top of swr.
 
 ## Getting started
 
 ### Installing
 
-Frist, you need to install required packages
+Frist, you need to install some required packages
 
 ```
-npm install react react-dom swr axios
-yarn add react react-dom swr axios
+npm install react swr axios
+
+yarn add react swr axios
 ```
 
-Then, you can install the core crudel package
+Then, you can install the crudel package
 
 ```
 npm install @crudel/core
+
 yarn add @crudel/core
 ```
 
@@ -26,17 +28,17 @@ yarn add @crudel/core
 import {useCrudel} from "@crudel/core"
 
 export default Home() => {
-    const { data, error, loading, remove } =useCrudel("/api/projects");
+    const { data, error, loading, remove } = useCrudel("/api/projects");
 
     if (error) return <div>failed to load</div>
     if (loading) return <div>loading...</div>
     if (!data) return <div>no data</div>
 
     return (
-    	<div>
-    		<p>Current Project: {data.name}</p>
-    		<button onClick={() => remove(data.id)}>Delete</button>
-    	</div>
+    <div>
+    <p>Current Project: {data.name}</p>
+    <button onClick={() => remove(data.id)}>Delete</button>
+    </div>
     )
-    }
+}
 ```

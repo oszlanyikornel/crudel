@@ -13,7 +13,8 @@
 		"build": "yarn lerna run build --npm-client=yarn",
 		"test": "yarn lerna run test --npm-client=yarn",
 		"test:core": "yarn workspace @crudel/core test",
-		"lint": "yarn lerna run lint --npm-client=yarn"
+		"lint": "yarn lerna run lint --npm-client=yarn",
+		"size": "yarn lerna run size-limit --npm-client=yarn"
 	},
 	"devDependencies": {
 		"lerna": "^4.0.0"
