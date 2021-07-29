@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useEffect } from "react";
-import { CustomMutation, useCrudel } from "@crudel/core";
+import { CustomMutation, useCrudel } from "@crudel/client";
 //import { useUser } from "../hooks/useUser";
 import axios from "axios";
 

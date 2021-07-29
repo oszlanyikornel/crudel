@@ -17,17 +17,19 @@ yarn add react swr axios
 Then, you can install the crudel package
 
 ```
-npm install @crudel/core
+npm install @crudel/client
 
-yarn add @crudel/core
+yarn add @crudel/client
 ```
 
 ### Usage
 
-```JavaScript
-import {useCrudel} from "@crudel/core"
+You can get your data with the useCrudel hook
 
-export default Home() => {
+```JavaScript
+import { useCrudel } from "@crudel/client"
+
+export default Projects() => {
     const { data, error, loading, remove } = useCrudel("/api/projects");
 
     if (error) return <div>failed to load</div>
@@ -38,6 +40,22 @@ export default Home() => {
     <div>
     <p>Current Project: {data.name}</p>
     <button onClick={() => remove(data.id)}>Delete</button>
+    </div>
+    )
+}
+```
+
+If you only want to modify data without fetching, you can use custom functions
+
+```JavaScript
+import { create } from "@crudel/client"
+
+export default Projects() => {
+
+    return (
+    <div>
+        <p>Projects</p>
+        <button onClick={() => create({name: "New Project"})}>Add Project</button>
     </div>
     )
 }
