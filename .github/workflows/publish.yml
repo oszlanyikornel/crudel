@@ -35,5 +35,14 @@ jobs:
       - name: Build
         run: yarn build
 
+      - name: Configure Git User
+        run: |
+          git config --global user.email "koszlanyi777@gmail.com"
+          git config --global user.name "Oszlányi Kornél"
+
       - name: Publish
         run: yarn lerna publish --yes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_PAT }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
