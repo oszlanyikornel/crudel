@@ -13,6 +13,6 @@
     "esModuleInterop": true,
     "declaration": true
   },
-  "include": ["**/*.ts", "**/*.tsx", "*.ts", "*.tsx", "../../index.ts"],
+  "include": ["**/*.ts", "*.ts"],
   "exclude": ["node_modules"]
 }

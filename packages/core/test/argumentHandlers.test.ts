@@ -1,8 +1,6 @@
 import axios from 'axios';
 import handlePostArgs from '../src/argumentHandlers/handlePostArgs';
-import handleSwrArgs, {
-  standardFetcher,
-} from '../src/argumentHandlers/handleSwrArgs';
+import { standardFetcher } from '../src/argumentHandlers/handleSwrArgs';
 import MockAdapter from 'axios-mock-adapter';
 
 describe('testing the standard fetcher', () => {
