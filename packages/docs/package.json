@@ -1,6 +1,6 @@
 {
 	"name": "@crudel/docs",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
@@ -9,7 +9,11 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+<<<<<<< HEAD
 		"@crudel/client": "0.1.10",
+=======
+		"@crudel/core": "^0.1.11",
+>>>>>>> 9454ea4ac434ed7e287129e803255801114cf9b4
 		"axios": "^0.21.1",
 		"next": "11.0.1",
 		"next-connect": "^0.10.1",

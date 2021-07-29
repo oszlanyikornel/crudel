@@ -3,23 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## 0.1.8 (2021-07-29)
+## 0.1.11 (2021-07-29)
 
-**Note:** Version bump only for package @crudel/docs
-
-
-
-
-
-## 0.1.7 (2021-07-29)
-
-**Note:** Version bump only for package @crudel/docs
+**Note:** Version bump only for package @crudel/core
 
 
 
 
 
-## 0.1.6 (2021-07-29)
+## 0.1.10 (2021-07-29)
+
+**Note:** Version bump only for package @crudel/core
+
+
+
+
+
+## 0.1.9 (2021-07-29)
 
 
 ### Bug Fixes
@@ -30,23 +30,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## 0.1.5 (2021-07-29)
+## 0.1.8 (2021-07-29)
 
-**Note:** Version bump only for package @crudel/docs
-
-
-
-
-
-## 0.1.4 (2021-07-29)
-
-**Note:** Version bump only for package @crudel/docs
+**Note:** Version bump only for package @crudel/core
 
 
 
 
 
-## 0.1.3 (2021-07-29)
+## 0.1.7 (2021-07-29)
+
+**Note:** Version bump only for package @crudel/core
+
+
+
+
+
+## 0.1.6 (2021-07-29)
 
 
 ### Bug Fixes
