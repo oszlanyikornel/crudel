@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.21 (2021-07-30)
+
+
+### Bug Fixes
+
+* icons fix ([6d6015d](https://github.com/oszlanyikornel/crudel/commit/6d6015d2cf7239956f2046a5e8673b2b81a1a81f))
+
+
+
+
+
 ## 0.1.20 (2021-07-30)
 
 **Note:** Version bump only for package @crudel/client
