@@ -53,8 +53,8 @@ export default Projects() => {
 
     return (
     <div>
-    <p>Current Project: {data.name}</p>
-    <button onClick={() => remove(data.id)}>Delete</button>
+        <p>Projects: {data.map(p => `${p.name}, `)}</p>
+        <button onClick={() => remove(data[0].id)}>Delete</button>
     </div>
     )
 }
@@ -70,7 +70,7 @@ export default Projects() => {
     return (
     <div>
         <p>Projects</p>
-        <button onClick={() => create("/api/projects", {name: "New Project"})}>Add Project</button>
+        <button onClick={() => create("/api/projects", { name: "New Project" })}>Add Project</button>
     </div>
     )
 }
