@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.17 (2021-07-30)
+
+
+### Bug Fixes
+
+* readme update on root ([1fe8d8e](https://github.com/oszlanyikornel/crudel/commit/1fe8d8e376e48aed7b5a1ca19216a1273cbc1796))
+
+
+
+
+
 ## 0.1.16 (2021-07-30)
 
 **Note:** Version bump only for package @crudel/client
