@@ -1,4 +1,4 @@
-[![Cruder](https://crudel.vercel.app/brand_header.png)](https://blitzjs.com)
+[![Cruder](https://crudel.vercel.app/brand_header.png)](https://crudel.vercel.app)
 
 <p align="center">
   <a aria-label="Documentation" href="https://crudel.vercel.app">
