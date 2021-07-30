@@ -26,24 +26,22 @@ const Features = () => {
 					<Feature
 						text="Lightweight"
 						icon={
-							<Image
+							<embed
 								className={styles.glassIcon}
 								height={37 * mult}
 								width={38 * mult}
 								src="/Graph.svg"
-								alt="Lightweight"
 							/>
 						}
 					/>
 					<Feature
 						text="Simple"
 						icon={
-							<Image
+							<embed
 								className={styles.glassIcon}
 								height={37 * mult}
 								width={38 * mult}
 								src="/Tick.svg"
-								alt="Lightweight"
 							/>
 						}
 					/>
@@ -52,24 +50,22 @@ const Features = () => {
 					<Feature
 						text="Fetching"
 						icon={
-							<Image
+							<embed
 								className={styles.glassIcon}
 								height={37 * mult}
 								width={38 * mult}
 								src="/Arrow.svg"
-								alt="Lightweight"
 							/>
 						}
 					/>
 					<Feature
 						text="Manipulation"
 						icon={
-							<Image
+							<embed
 								className={styles.glassIcon}
 								height={37 * mult}
 								width={38 * mult}
 								src="/Edit.svg"
-								alt="Lightweight"
 							/>
 						}
 					/>
@@ -78,24 +74,22 @@ const Features = () => {
 					<Feature
 						text="Customizable"
 						icon={
-							<Image
+							<embed
 								className={styles.glassIcon}
 								height={37 * mult}
 								width={38 * mult}
 								src="/Setting.svg"
-								alt="Lightweight"
 							/>
 						}
 					/>
 					<Feature
 						text="TypeSafe"
 						icon={
-							<Image
+							<embed
 								className={styles.glassIcon}
 								height={37 * mult}
 								width={38 * mult}
 								src="/Shield.svg"
-								alt="Lightweight"
 							/>
 						}
 					/>
