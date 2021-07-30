@@ -1,0 +1,26 @@
+---
+title: Introduction
+---
+
+import Callout from "nextra-theme-docs/callout";
+import Bleed from "nextra-theme-docs/bleed";
+import Features from "../components/Features";
+import Image from "next/image";
+import Call from "../components/Call"
+import Logo from "../components/Logo"
+
+<div style={{ display: "flex", paddingRight: 20, paddingTop: 20, flexDirection: "column", alignItems: "center"}}>
+<Logo width={120} height={120}/>
+</div>
+<h2 className="title" style={{marginTop: 0, marginBottom: 20}}>Crudel</h2>
+<Features />
+
+To fully set up a react project with data fetching and data manipulation can cost you a lot of time. You have to write your own `fetching` functions, manage your `state` and build custom `hooks`.
+
+Crudel wants to take the weight of your shoulder with a simple to use hook for both fetching and manipulating data. It extends the popular _[SWR library](https://swr.vercel.app/)_ with custom data `manipulation functions` which are easy to use and fully customizable.
+
+<Call emoji="✅">
+	Crudel is built in **Typescript** and aims to help your code to be
+	**typesafe**.
+</Call>
+
