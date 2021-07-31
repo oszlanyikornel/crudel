@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.22 (2021-07-31)
+
+
+### Bug Fixes
+
+* added chrt glassicon as svg ([72a332f](https://github.com/oszlanyikornel/crudel/commit/72a332ffa5785dc8342c95df0e2ea9446018d43b))
+
+
+
+
+
 ## 0.1.21 (2021-07-30)
 
 
