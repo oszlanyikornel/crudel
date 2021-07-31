@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import styles from "./features.module.css";
 import Image from "next/image";
 import { FC } from "react";
+import GlassIcon from "./GlassIcon";
 
 const Feature: FC<{ text: string; icon: any }> = ({ text, icon }) => (
 	<div className={styles.feature}>
@@ -26,12 +27,9 @@ const Features = () => {
 					<Feature
 						text="Lightweight"
 						icon={
-							<embed
-								className={styles.glassIcon}
-								height={37 * mult}
-								width={38 * mult}
-								src="/Graph.svg"
-							/>
+							<div className={styles.glassIcon}>
+								<GlassIcon h={37} w={38} />
+							</div>
 						}
 					/>
 					<Feature
